@@ -1,2 +1,2 @@
 # ATM-System
-ATM clone made using OOP. 
+ATM clone created using Object Oriented Programming.
