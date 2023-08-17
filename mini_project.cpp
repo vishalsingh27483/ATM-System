@@ -60,7 +60,7 @@ class ATM{
     }
 
     void cashWithDraw(int amount_a){
-        if(amount_a < 0 && amount_a <balance){
+        if(amount_a > 0 && amount_a <balance){
             balance -= amount_a;
             cout << endl <<"Please collect the cash ";
             cout <<endl <<"Available balance : " <<balance;
@@ -153,7 +153,13 @@ int main()
 
                 }
 
-            }
+            } while(1);
+        }
+
+        else {
+            cout <<endl <<"User Details are Invalid !!!";
+
+            _getch();
         }
         
 
